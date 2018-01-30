@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.back4app.pushnotificationviadashboardexample">
+    package="com.back4app.android_push_via_cloud_code">
 
     <application
         android:allowBackup="true"
@@ -35,7 +35,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-                <category android:name="com.example.back4app.pushnotificationviadashboardexample" />
+                <category android:name="com.back4app.android_push_via_cloud_code" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.parse.ParsePushBroadcastReceiver" android:exported="false">

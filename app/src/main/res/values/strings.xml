@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Push Notification Via Dashboard</string>
+    <string name="app_name">Push Notification via Cloud Code</string>
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
     <!-- Change the following strings as required -->
     <string name="back4app_app_id">mDdW3B96uIS8tsm1Y5TfqUOKPmQ9gGNoXDcPab76</string>

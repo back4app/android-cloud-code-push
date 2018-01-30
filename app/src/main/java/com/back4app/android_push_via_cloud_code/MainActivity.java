@@ -1,4 +1,4 @@
-package com.example.back4app.pushnotificationviadashboardexample;
+package com.back4app.android_push_via_cloud_code;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
