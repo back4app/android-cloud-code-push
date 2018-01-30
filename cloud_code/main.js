@@ -18,5 +18,4 @@ Parse.Cloud.define("pushsample", function (request, response) {
             },
             useMasterKey: true
        });
-
 });
