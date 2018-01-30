@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         channels.add("News");
         ParseInstallation installation = ParseInstallation.getCurrentInstallation();
         // don't forget to change the line below with the sender ID you obtained at Firebase
-        installation.put("GCMSenderId", "790565434350");
+        installation.put("GCMSenderId", "YOUR_FIREBASE_GCM_SENDER_ID_HERE");
         installation.put("channels", channels);
         installation.saveInBackground();
         final HashMap<String, String> params = new HashMap<>();
@@ -85,6 +85,3 @@ public class MainActivity extends AppCompatActivity {
         ok.show();
     }
 }
-
-//Rest
-//curl -X POST -H "X-Parse-Application-Id: mDdW3B96uIS8tsm1Y5TfqUOKPmQ9gGNoXDcPab76" -H "X-Parse-REST-API-Key: nB2zMr3WhFyJIpQje9gW0QNvAVKj73eSDMdPDXkN" -H "Content-Type: application/json" -d '{}' https://parseapi.back4app.com/functions/pushsample

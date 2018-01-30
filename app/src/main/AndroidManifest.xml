@@ -20,7 +20,7 @@
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/back4app_client_key" />
         <meta-data android:name="com.parse.push.gcm_sender_id"
-            android:value="id:790565434350" />
+            android:value="id:YOUR_FIREBASE_GCM_SENDER_ID" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
