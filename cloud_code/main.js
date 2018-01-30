@@ -2,8 +2,8 @@ Parse.Cloud.define("pushsample", function (request, response) {
     Parse.Push.send({
             channels: ["News"],
             data: {
-                title: "Hello!",
-                alert: "Hello from the Cloud Code",
+                title: "Hello from the Cloud Code",
+                alert: "Back4App rocks!",
             }
        }, {
             success: function () {
