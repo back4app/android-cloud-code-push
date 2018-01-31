@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 //Setting up a progress dialog
                 final ProgressDialog dlg = new ProgressDialog(MainActivity.this);
                 dlg.setTitle("Please, wait a moment.");
-                dlg.setMessage("Seding push...");
+                dlg.setMessage("Sending push...");
                 dlg.show();
 
 
